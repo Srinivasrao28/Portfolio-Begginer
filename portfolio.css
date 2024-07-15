@@ -284,7 +284,7 @@ main {
 
 .certification_img {
     width: 100%;
-    height: 80%;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -431,9 +431,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: sticky;
-    bottom: 0;
-    left: 0;
     z-index: 1;
 }
 
@@ -441,4 +438,467 @@ footer {
     color: white;
     font-size: 10px;
     cursor: default;
+}
+
+/* Media Queries  */
+
+@media (320px <= width <= 375px) { 
+    #logo{
+        width:30vw;
+    }
+    .logo_img{
+        width:100%;
+        margin-left: 20px;
+    }
+    .nav_link{
+        width:20vw;
+    }
+    .a{
+        font-size: 0.6rem;
+    }
+    #content{
+        overflow: hidden;
+    }
+    #content h1{
+        font-size: 1rem;
+        left:10px;
+    }
+    #content p{
+        font-size: 0.8rem;
+        left:10px;
+        top:230px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+    #content .btns{
+        top:280px;
+        left: 10px;
+    }
+    .btn{
+        width: 30vw;
+        height: 5vh;
+        font-size: 0.6rem;
+    }
+    #img-1{
+        display: none;
+        background-color: black;
+    }
+    .home_img{
+        height: max-content;
+        padding: 20px 0;
+    }
+    .home_img p{
+        font-size: 0.8rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .img_hcj{
+        width: 70%;
+        padding: 0 20px;
+    }
+    #projects_content{
+        padding: 0 10px;
+        height: max-content;
+    }
+    .projects_div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .project_card{
+        padding: 0;
+        height: max-content;
+    }
+    .project_img{
+        height: max-content;
+    }
+    .project_headline{
+        font-size: 0.6rem;
+    }
+    #certifications_intro{
+        font-size: 0.8rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    #certification_content{
+        padding: 0 10px;
+    }
+    .certification_div{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .certification_card{
+        padding: 0;
+    }
+    .certification_headline{
+        font-size: 0.6rem;
+    }
+    #profile{
+        height: max-content;
+        flex-direction: column;
+    }
+    .profile_content{
+        margin: 0;
+        text-align: center;
+    }
+    .profile_content h2{
+        font-size: 1rem;
+    }
+    .profile_content p{
+        font-size: 0.8rem;
+    }
+    .srinivas_logo{
+        width: 30vw;
+    }
+    .srinivas_logo img{
+        padding: 0;
+    }
+    #other_info{
+        height: max-content;
+    }
+    .heading_info_edu{
+        margin-bottom: 10px;
+    }
+    #other_info h3 {
+        font-size: 0.8rem;
+    }
+    #other_info p{
+        font-size: 0.6rem;
+        padding: 0 5px;
+        text-align: center;
+    }
+    .skills_info_edu{
+        margin-bottom: 10px;
+    }
+    .skills{
+        margin: 0;
+    }
+    .experience_info_edu{
+        margin: 0 0 10px 0;
+    }
+    .experience{
+        margin: 0;
+    }
+    .platforms_info_edu{
+        margin-bottom: 10px;
+    }
+    .logo_imge{
+        width: 10vw;
+    }
+    .img_logos{
+        margin: 0;
+    }
+}
+
+@media (375px < width <= 425px) {
+    #logo{
+        width:30vw;
+    }
+    .logo_img{
+        width:100%;
+        margin-left: 20px;
+    }
+    .nav_link{
+        width:20vw;
+    }
+    .a{
+        font-size: 0.6rem;
+    }
+    #content{
+        overflow: hidden;
+    }
+    #content h1{
+        font-size: 1rem;
+        left:10px;
+    }
+    #content p{
+        font-size: 0.8rem;
+        left:10px;
+        top:230px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+    #content .btns{
+        top:280px;
+        left: 10px;
+    }
+    .btn{
+        width: 30vw;
+        height: 5vh;
+        font-size: 0.6rem;
+    }
+    #img-1{
+        display: none;
+        background-color: black;
+    }
+    .home_img{
+        height: max-content;
+        padding: 20px 0;
+    }
+    .home_img p{
+        font-size: 0.8rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .img_hcj{
+        width: 70%;
+        padding: 0 20px;
+    }
+    #projects_content{
+        padding: 0 10px;
+        height: max-content;
+    }
+    .projects_div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .project_card{
+        padding: 0;
+        height: max-content;
+    }
+    .project_img{
+        height: max-content;
+    }
+    .project_headline{
+        font-size: 0.6rem;
+    }
+    #certifications_intro{
+        font-size: 0.8rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    #certification_content{
+        padding: 0 10px;
+    }
+    .certification_div{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .certification_card{
+        padding: 0;
+    }
+    .certification_headline{
+        font-size: 0.6rem;
+    }
+    #profile{
+        height: max-content;
+        flex-direction: column;
+    }
+    .profile_content{
+        margin: 0;
+        text-align: center;
+    }
+    .profile_content h2{
+        font-size: 1rem;
+    }
+    .profile_content p{
+        font-size: 0.8rem;
+    }
+    .srinivas_logo{
+        width: 30vw;
+    }
+    .srinivas_logo img{
+        padding: 0;
+    }
+    #other_info{
+        height: max-content;
+    }
+    .heading_info_edu{
+        margin-bottom: 10px;
+    }
+    #other_info h3 {
+        font-size: 0.8rem;
+    }
+    #other_info p{
+        font-size: 0.6rem;
+        padding: 0 5px;
+        text-align: center;
+    }
+    .skills_info_edu{
+        margin-bottom: 10px;
+    }
+    .skills{
+        margin: 0;
+    }
+    .experience_info_edu{
+        margin: 0 0 10px 0;
+    }
+    .experience{
+        margin: 0;
+    }
+    .platforms_info_edu{
+        margin-bottom: 10px;
+    }
+    .logo_imge{
+        width: 10vw;
+    }
+    .img_logos{
+        margin: 0;
+    }
+}
+
+@media (425px < width <= 768px) {
+    #logo{
+        width:20vw;
+    }
+    .logo_img{
+        width:100%;
+        margin-left: 20px;
+    }
+    .nav_link{
+        width:20vw;
+    }
+    .a{
+        font-size: 0.8rem;
+    }
+    #content{
+        overflow: hidden;
+    }
+    #content h1{
+        font-size: 1.2rem;
+        left:10px;
+    }
+    #content p{
+        font-size: 1rem;
+        left:10px;
+        top:230px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+    #content .btns{
+        top:280px;
+        left: 10px;
+    }
+    .btn{
+        width: 30vw;
+        height: 5vh;
+        font-size: 0.8rem;
+    }
+    #img-1{
+        display: none;
+        background-color: black;
+    }
+    .home_img{
+        height: max-content;
+        padding: 20px 0;
+    }
+    .home_img p{
+        font-size: 0.8rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .img_hcj{
+        width: 70%;
+        padding: 0 20px;
+    }
+    #projects_content{
+        padding: 0 10px;
+        height: max-content;
+    }
+    .projects_div {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .project_card{
+        padding: 0;
+        height: max-content;
+    }
+    .project_img{
+        height: max-content;
+    }
+    .project_headline{
+        font-size: 0.8rem;
+    }
+    #certifications_intro{
+        font-size: 0.9rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    #certification_content{
+        padding: 0 10px;
+    }
+    .certification_div{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, max-content);
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .certification_card{
+        padding: 0;
+    }
+    .certification_headline{
+        font-size: 0.8rem;
+    }
+    #profile{
+        height: max-content;
+        flex-direction: column;
+    }
+    .profile_content{
+        margin: 0;
+        text-align: center;
+    }
+    .profile_content h2{
+        font-size: 1.2rem;
+    }
+    .profile_content p{
+        font-size: 0.9rem;
+    }
+    .srinivas_logo{
+        width: 10vw;
+    }
+    .srinivas_logo img{
+        padding: 0;
+    }
+    #other_info{
+        height: max-content;
+    }
+    .heading_info_edu{
+        margin-bottom: 10px;
+    }
+    #other_info h3 {
+        font-size: 0.9rem;
+    }
+    #other_info p{
+        font-size: 0.8rem;
+        padding: 0 5px;
+        text-align: center;
+    }
+    .skills_info_edu{
+        margin-bottom: 10px;
+    }
+    .skills{
+        margin: 0;
+    }
+    .experience_info_edu{
+        margin: 0 0 10px 0;
+    }
+    .experience{
+        margin: 0;
+    }
+    .platforms_info_edu{
+        margin-bottom: 10px;
+    }
+    .logo_imge{
+        width: 7vw;
+    }
+    .img_logos{
+        margin: 10px;
+    }
+}
+
+@media (768px < width <= 1024px) {
+    
+}
+
+@media (width > 1024px) {
+    
 }
